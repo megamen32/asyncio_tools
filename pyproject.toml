@@ -1,0 +1,18 @@
+[project]
+name = "asyncio-tools"
+version = "0.1.0"
+description = "Tiny one-file asyncio task utilities: concurrency control, retries, timeouts, race, periodic tasks, batched execution."
+authors = [
+    {name = "Nikita", email = "example@example.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+keywords = ["asyncio", "tasks", "concurrency", "utilities", "async"]
+requires-python = ">=3.9"
+
+# No dependencies — the whole lib is stdlib-only
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/YOUR_USERNAME/asyncio-tools"
+Issues = "https://github.com/YOUR_USERNAME/asyncio-tools/issues"
